@@ -1,0 +1,11 @@
+<Item identifier="exsanguinator"  name="Exsanguinator" scale="1">
+ <ItemComponent>
+	<StatusEffect type="OnActive" target="UseTarget" SpeciesName="Human" HasTag="Alive" Vitality="-0.75"/>
+    <StatusEffect type="OnActive" target="Parent" spawnItem="antibloodloss2" SpawnIfCantBeContained="false" MaxCount="1"/>
+  </ItemComponent>
+<InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="0,64,64,64" origin="0.5,0.5" />
+<Sprite texture="Content/Items/Tools/tools.png" sourcerect="0,93,149,71" depth="0.7" origin="0.5,0.5" />
+<contentpackage name="Exsanguinator" modversion="1.0.0" gameversion="0.17.8.0" corepackage="false">
+    <Item file="%ModDir%/exsanguinator.xml" />
+</contentpackage>
+</Item>
